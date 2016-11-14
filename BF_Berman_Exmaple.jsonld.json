@@ -1,0 +1,259 @@
+[
+  {
+    "@id": "_:b0",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfTitle",
+      "http://id.loc.gov/ontologies/bibframe.rdfWorkTitle"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfmainTitle": [
+      {
+        "@value": "Joy of cataloging"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfsubTitle": [
+      {
+        "@value": "essays, letters, and other explosions"
+      }
+    ]
+  },
+  {
+    "@id": "_:b1",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfContribution"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfagent": [
+      {
+        "@id": "http://id.loc.gov/authorities/names/n80107118"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfrole": [
+      {
+        "@value": "author"
+      }
+    ]
+  },
+  {
+    "@id": "_:b2",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfLccn"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@value": "80020525"
+      }
+    ]
+  },
+  {
+    "@id": "_:b3",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfIsbn"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@value": "0912700513"
+      }
+    ]
+  },
+  {
+    "@id": "_:b4",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfIsbn"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@value": "0912700947"
+      }
+    ]
+  },
+  {
+    "@id": "_:b5",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfProvisionActivity",
+      "http://id.loc.gov/ontologies/bibframe.rdfPublisher"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfdate": [
+      {
+        "@value": "1981"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfplace": [
+      {
+        "@value": "Phoenix, AZ"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfrole": [
+      {
+        "@value": "publisher"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Oryx Press"
+      }
+    ]
+  },
+  {
+    "@id": "_:b6",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfLanguage"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdflanguage": [
+      {
+        "@id": "http://id.loc.gov/vocabulary/languages/eng"
+      }
+    ]
+  },
+  {
+    "@id": "http://library.edu/Berman_admin1",
+    "http://id.loc.gov/ontologies/bibframe.rdfassigner": [
+      {
+        "@value": "ab3167"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfcreationdate": [
+      {
+        "@value": "2016-11-14"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfdescriptionConvensions": [
+      {
+        "@value": "rda"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfdescriptionLanguage": [
+      {
+        "@id": "_:b6"
+      }
+    ]
+  },
+  {
+    "@id": "http://library.edu/Berman_inst1",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfInstance"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfadminMetadata": [
+      {
+        "@id": "http://library.edu/Berman_admin1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfdimensions": [
+      {
+        "@value": "28 cm"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfextent": [
+      {
+        "@value": "xii, 249 pages"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfhasItem": [
+      {
+        "@id": "http://library.edu/Berman_item1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfidentifiedBy": [
+      {
+        "@id": "_:b2"
+      },
+      {
+        "@id": "_:b3"
+      },
+      {
+        "@id": "_:b4"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfprovisionActivity": [
+      {
+        "@id": "_:b5"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfresponsibilityStatement": [
+      {
+        "@value": "by Sanford Berman"
+      }
+    ]
+  },
+  {
+    "@id": "http://library.edu/Berman_item1",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfItem"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfadminMetadata": [
+      {
+        "@id": "http://library.edu/Berman_admin1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfbarcode": [
+      {
+        "@value": "1234567890111"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfheldBy": [
+      {
+        "@value": "DLC"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfshelfmark": [
+      {
+        "@value": "Z693 .B47 1981"
+      }
+    ]
+  },
+  {
+    "@id": "http://library.edu/Berman_work1",
+    "@type": [
+      "http://id.loc.gov/ontologies/bibframe.rdfWork"
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfadminMetadata": [
+      {
+        "@id": "http://library.edu/Berman_admin1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfclassification": [
+      {
+        "@id": "http://id.loc.gov/authorities/classification/Z693.A3-Z693.Z"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfcontributor": [
+      {
+        "@id": "_:b1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfhasInstance": [
+      {
+        "@id": "http://library.edu/Berman_inst1"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdforiginDate": [
+      {
+        "@value": "1981"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfsubject": [
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85020816"
+      },
+      {
+        "@id": "http://id.loc.gov/authorities/subjects/sh85129425"
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfsummary": [
+      {
+        "@value": "A collection of essays and letters on cataloging, classification, and \t\t\t\t\t\t\tindexing."
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdfsupplementaryContent": [
+      {
+        "@value": "Includes index."
+      },
+      {
+        "@value": "Bibliography: p. [205]-209."
+      }
+    ],
+    "http://id.loc.gov/ontologies/bibframe.rdftitle": [
+      {
+        "@id": "_:b0"
+      }
+    ]
+  }
+]

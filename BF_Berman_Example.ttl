@@ -1,0 +1,75 @@
+@base <http://library.edu/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe.rdf> .
+
+#This is a test record for the PCC BIBFRAME TG
+
+<Berman_work1> 
+	a bf:Work ;
+	bf:hasInstance		<Berman_inst1> ;
+	bf:adminMetadata	<Berman_admin1> ;
+	bf:title [
+		a 				bf:Title, bf:WorkTitle ;
+		bf:mainTitle 	"Joy of cataloging" ;
+		bf:subTitle		"essays, letters, and other explosions" ;
+	] ;
+	bf:contributor [
+		a 				bf:Contribution ;
+		bf:role			"author" ;
+		bf:agent		<http://id.loc.gov/authorities/names/n80107118>
+	] ;
+	bf:originDate		"1981" ;
+	bf:summary			"A collection of essays and letters on cataloging, classification, and indexing." ;
+	bf:supplementaryContent		"Includes index." ;
+	bf:supplementaryContent		"Bibliography: p. [205]-209." ;
+	bf:subject				<http://id.loc.gov/authorities/subjects/sh85020816> ;
+	bf:subject 				<http://id.loc.gov/authorities/subjects/sh85129425> ;
+	bf:classification		<http://id.loc.gov/authorities/classification/Z693.A3-Z693.Z> .
+
+
+<Berman_inst1>
+	a 	bf:Instance ;
+	bf:hasItem			<Berman_item1> ;
+	bf:adminMetadata	<Berman_admin1> ;
+	bf:identifiedBy [
+		a 				bf:Lccn ;
+		rdf:value 		"80020525" ;
+	] ;
+	bf:identifiedBy [
+		a 				bf:Isbn ;
+		rdf:value 		"0912700513" ;
+	] ;
+	bf:identifiedBy [
+		a 				bf:Isbn ;
+		rdf:value 		"0912700947" ;
+	] ;
+	bf:responsibilityStatement		"by Sanford Berman" ;
+	bf:provisionActivity [
+		a 				bf:ProvisionActivity, bf:Publisher ;
+		bf:role			"publisher" ;
+		bf:date 		"1981" ;
+		bf:place 		"Phoenix, AZ" ;
+		rdfs:label		"Oryx Press" 
+	] ;
+	bf:extent			"xii, 249 pages" ;
+	bf:dimensions 		"28 cm" .
+
+<Berman_item1>
+	a 	bf:Item ;
+	bf:adminMetadata	<Berman_admin1> ;
+	bf:heldBy			"DLC", "NNC" ;
+	bf:barcode				"1234567890111" ;
+	bf:shelfmark			"Z693 .B47 1981" .
+
+<Berman_admin1>
+	bf:assigner			"ab3167" ;
+	bf:descriptionConvensions 		"rda" ;
+	bf:descriptionLanguage	[
+		a 				bf:Language ;
+		bf:language 	<http://id.loc.gov/vocabulary/languages/eng> 
+		] ;
+	bf:creationdate		"2016-11-14". 	
+
+	'''
+

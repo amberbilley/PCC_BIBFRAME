@@ -1,0 +1,21 @@
+LEADER 00000pam  2200289Ki 4500 
+001    6626957 
+005    20020904001200.0 
+008    800728s1981    azu      b    001 0 eng   
+010       80020525 
+020    0912700513 (pbk.) 
+020    0912700947 (pbk.) 
+040    DLC|cDLC|dm.c.|dVZQ 
+049    VZQD [cop.1] [15.00]|bpmc 
+050 0  Z693|b.B47 
+100 1  Berman, Sanford,|d1933- 
+245 14 The joy of cataloging :|bessays, letters, and other 
+       explosions /|cby Sanford Berman. 
+260    Phoenix, AZ :|bOryx Press,|c1981. 
+300    xii, 249 p. ;|c28 cm. 
+500    Includes index. 
+504    Bibliography: p. [205]-209. 
+650  0 Cataloging. 
+650  0 Subject cataloging. 
+909    LTI AUP 09-2009 
+935    2416 	
