@@ -46,7 +46,7 @@
 	] ;
 	bf:responsibilityStatement		"by Sanford Berman" ;
 	bf:provisionActivity [
-		a 				bf:ProvisionActivity, bf:Publisher ;
+		a 				bf:ProvisionActivity, bf:Publication ;
 		bf:role			"publisher" ;
 		bf:date 		"1981" ;
 		bf:place 		"Phoenix, AZ" ;
