@@ -14,7 +14,7 @@
 		bf:mainTitle 	"Joy of cataloging" ;
 		bf:subTitle		"essays, letters, and other explosions" ;
 	] ;
-	bf:contributor [
+	bf:contribution [
 		a 				bf:Contribution ;
 		bf:role			"author" ;
 		bf:agent		<http://id.loc.gov/authorities/names/n80107118>

@@ -60,12 +60,12 @@
       </bf:Title>
     </bf:title>
 
-    <bf:contributor>
+    <bf:contribution>
       <bf:Contribution>
         <bf:role>author</bf:role>
         <bf:agent rdf:resource="http://id.loc.gov/authorities/names/n80107118"/>
       </bf:Contribution>
-    </bf:contributor>
+    </bf:contribution>
 
     <bf:originDate>1981</bf:originDate>
     <bf:summary>A collection of essays and letters on cataloging, classification, and 							indexing.</bf:summary>

@@ -1,52 +1,52 @@
-<http://library.edu/Berman_work1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Work> .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#hasInstance> <http://library.edu/Berman_inst1> .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#adminMetadata> <http://library.edu/Berman_admin1> .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#title> _:genid1 .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#contributor> _:genid2 .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#originDate> "1981" .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#summary> "A collection of essays and letters on cataloging, classification, and \t\t\t\t\t\t\tindexing." .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#supplementaryContent> "Includes index." .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#supplementaryContent> "Bibliography: p. [205]-209." .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#subject> <http://id.loc.gov/authorities/subjects/sh85020816> .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#subject> <http://id.loc.gov/authorities/subjects/sh85129425> .
-<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe.rdf#classification> <http://id.loc.gov/authorities/classification/Z693.A3-Z693.Z> .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Title> .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#WorkTitle> .
-_:genid1 <http://id.loc.gov/ontologies/bibframe.rdf#mainTitle> "Joy of cataloging" .
-_:genid1 <http://id.loc.gov/ontologies/bibframe.rdf#subTitle> "essays, letters, and other explosions" .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Contribution> .
-_:genid2 <http://id.loc.gov/ontologies/bibframe.rdf#role> "author" .
-_:genid2 <http://id.loc.gov/ontologies/bibframe.rdf#agent> <http://id.loc.gov/authorities/names/n80107118> .
-<http://library.edu/Berman_inst1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Instance> .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#hasItem> <http://library.edu/Berman_item1> .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#adminMetadata> <http://library.edu/Berman_admin1> .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#identifiedBy> _:genid3 .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#identifiedBy> _:genid4 .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#identifiedBy> _:genid5 .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#responsibilityStatement> "by Sanford Berman" .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#provisionActivity> _:genid6 .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#extent> "xii, 249 pages" .
-<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe.rdf#dimensions> "28 cm" .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Lccn> .
+<http://library.edu/Berman_work1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Work> .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#hasInstance> <http://library.edu/Berman_inst1> .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#adminMetadata> <http://library.edu/Berman_admin1> .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#title> _:genid1 .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#contribution> _:genid2 .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#originDate> "1981" .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#summary> "A collection of essays and letters on cataloging, classification, and \t\t\t\t\t\t\tindexing." .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#supplementaryContent> "Includes index." .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#supplementaryContent> "Bibliography: p. [205]-209." .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#subject> <http://id.loc.gov/authorities/subjects/sh85020816> .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#subject> <http://id.loc.gov/authorities/subjects/sh85129425> .
+<http://library.edu/Berman_work1> <http://id.loc.gov/ontologies/bibframe#classification> <http://id.loc.gov/authorities/classification/Z693.A3-Z693.Z> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Title> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#WorkTitle> .
+_:genid1 <http://id.loc.gov/ontologies/bibframe#mainTitle> "Joy of cataloging" .
+_:genid1 <http://id.loc.gov/ontologies/bibframe#subTitle> "essays, letters, and other explosions" .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Contribution> .
+_:genid2 <http://id.loc.gov/ontologies/bibframe#role> "author" .
+_:genid2 <http://id.loc.gov/ontologies/bibframe#agent> <http://id.loc.gov/authorities/names/n80107118> .
+<http://library.edu/Berman_inst1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Instance> .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#hasItem> <http://library.edu/Berman_item1> .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#adminMetadata> <http://library.edu/Berman_admin1> .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#identifiedBy> _:genid3 .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#identifiedBy> _:genid4 .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#identifiedBy> _:genid5 .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#responsibilityStatement> "by Sanford Berman" .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#provisionActivity> _:genid6 .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#extent> "xii, 249 pages" .
+<http://library.edu/Berman_inst1> <http://id.loc.gov/ontologies/bibframe#dimensions> "28 cm" .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Lccn> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "80020525" .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Isbn> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Isbn> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0912700513" .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Isbn> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Isbn> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0912700947" .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#ProvisionActivity> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Publication> .
-_:genid6 <http://id.loc.gov/ontologies/bibframe.rdf#role> "publisher" .
-_:genid6 <http://id.loc.gov/ontologies/bibframe.rdf#date> "1981" .
-_:genid6 <http://id.loc.gov/ontologies/bibframe.rdf#place> "Phoenix, AZ" .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#ProvisionActivity> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Publication> .
+_:genid6 <http://id.loc.gov/ontologies/bibframe#role> "publisher" .
+_:genid6 <http://id.loc.gov/ontologies/bibframe#date> "1981" .
+_:genid6 <http://id.loc.gov/ontologies/bibframe#place> "Phoenix, AZ" .
 _:genid6 <http://www.w3.org/2000/01/rdf-schema#label> "Oryx Press" .
-<http://library.edu/Berman_item1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Item> .
-<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe.rdf#adminMetadata> <http://library.edu/Berman_admin1> .
-<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe.rdf#heldBy> "DLC" .
-<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe.rdf#barcode> "1234567890111" .
-<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe.rdf#shelfmark> "Z693 .B47 1981" .
-<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe.rdf#assigner> "ab3167" .
-<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe.rdf#descriptionConvensions> "rda" .
-<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe.rdf#descriptionLanguage> _:genid7 .
-<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe.rdf#creationdate> "2016-11-14" .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe.rdf#Language> .
-_:genid7 <http://id.loc.gov/ontologies/bibframe.rdf#language> <http://id.loc.gov/vocabulary/languages/eng> .
+<http://library.edu/Berman_item1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Item> .
+<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe#adminMetadata> <http://library.edu/Berman_admin1> .
+<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe#heldBy> "DLC" .
+<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe#barcode> "1234567890111" .
+<http://library.edu/Berman_item1> <http://id.loc.gov/ontologies/bibframe#shelfmark> "Z693 .B47 1981" .
+<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe#assigner> "ab3167" .
+<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe#descriptionConvensions> "rda" .
+<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe#descriptionLanguage> _:genid7 .
+<http://library.edu/Berman_admin1> <http://id.loc.gov/ontologies/bibframe#creationdate> "2016-11-14" .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe#Language> .
+_:genid7 <http://id.loc.gov/ontologies/bibframe#language> <http://id.loc.gov/vocabulary/languages/eng> .
